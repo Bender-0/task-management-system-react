@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Layout from './Pages/Layout'
-import Home from './Pages/Home'
-import Projects from './Pages/Projects'
-import Tasks from './Pages/Tasks'
-import Categories from './Pages/Categories'
+import Layout from './components/layout/Layout'
+import Home from './Pages/HomePage'
+import Projects from './Pages/ProjectsPage'
+import Tasks from './Pages/TasksPage'
+import Categories from './Pages/CategoriesPage'
 
 export default function App() {
 
