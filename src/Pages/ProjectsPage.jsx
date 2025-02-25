@@ -1,7 +1,9 @@
-export default function Projects() {
+import ProjectList from "../components/projects/ProjectList";
+
+export default function ProjectsPage() {
   return (
     <>
-      <h1 className="title">Projects Page</h1>
+      <ProjectList />
     </>
   );
 }

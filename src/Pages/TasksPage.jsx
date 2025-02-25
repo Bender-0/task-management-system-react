@@ -1,7 +1,10 @@
-export default function Tasks() {
+import TaskList from "../components/tasks/TaskList";
+
+
+export default function TasksPage() {
     return (
         <>
-            <h1 className="title">Tasks Page</h1>
+            <TaskList />
         </>
     );
 }
